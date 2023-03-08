@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    font-family: 'Sono', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #252525;
+    color: aliceblue;
+}
+
+input{
+    border: none;
+    background: none;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+
+h1{
+    font-size: 3rem;
+}
+.pokeCarta{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.pokeImg{
+    background-color: #d8ebf223 ;
+    border-radius: 20%;
+    padding: 1rem;
+
+}
+
+.tipoStats{
+    text-transform: uppercase !important; 
+    text-shadow: 2px 2px 5px;
+    padding: 10px;
+}
+.pokeStats{
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 1.5;
+    word-spacing: -5px;
+}
